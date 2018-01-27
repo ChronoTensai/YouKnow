@@ -100,7 +100,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 41
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1017859539126952, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_Name
@@ -202,7 +202,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1017859539126952, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_Name
@@ -267,15 +267,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 4.33
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.86
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 18.328949
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_LocalRotation.x
@@ -791,7 +791,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1017859539126952, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_Name
@@ -915,7 +915,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1017859539126952, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_Name
@@ -1123,6 +1123,10 @@ Prefab:
       propertyPath: m_Size.y
       value: 0.5980246
       objectReference: {fileID: 0}
+    - target: {fileID: 1109050915050978, guid: df2e55668f741c04b9584407bf3080eb, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df2e55668f741c04b9584407bf3080eb, type: 2}
   m_IsPrefabParent: 0
@@ -1295,7 +1299,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4972959057262608, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1017859539126952, guid: a94b0e8b9f13ded4c83f2a8b3d7a9c33, type: 2}
       propertyPath: m_Name

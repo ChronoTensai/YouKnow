@@ -66,14 +66,13 @@ public class Teacher : Enemy {
 
 
     }
-    void LookWallkDirection()
-    {
 
-    }
 
     void Move()
     {
-        
+        Quaternion rotation = Quaternion.LookRotation(FollowNode[point].transform.position - this.transform.position, transform.TransformDirection(Vector3.back));
+        transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
+
         this.transform.position = Vector3.MoveTowards(this.transform.position, FollowNode[point].transform.position, (Time.deltaTime/10) * speed);
         if (Vector3.Distance(this.transform.position, FollowNode[point].transform.position) < closeEnouth)
         {
