@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4144675488847966}
   - component: {fileID: 212466048531803078}
   - component: {fileID: 114754221209232330}
-  - component: {fileID: 61735391980435486}
   - component: {fileID: 50892910927822692}
+  - component: {fileID: 58183613622896190}
   m_Layer: 12
   m_Name: Message
   m_TagString: Message
@@ -63,8 +63,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61735391980435486
-BoxCollider2D:
+--- !u!58 &58183613622896190
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -76,18 +76,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
-  m_EdgeRadius: 0
+  m_Radius: 0.08
 --- !u!114 &114754221209232330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -99,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c8ff0657fa2c343afff47ebb896beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Velocity: 3
 --- !u!212 &212466048531803078
 SpriteRenderer:
   m_ObjectHideFlags: 1
