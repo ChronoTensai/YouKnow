@@ -28,12 +28,14 @@ public class losePrompt : MonoBehaviour {
 	public void LoadLevel()
 	{
 		Debug.Log (MODEL.GAME_STATE);
+		obj.SetActive (false);
 		SceneManager.LoadScene(SCENE.LEVEL_ONE);
 	}
 
 	public void QuitToMainMenu()
 	{
 		Debug.Log (MODEL.GAME_STATE);
+		obj.SetActive (false);
 		SceneManager.LoadScene(SCENE.MAIN_MENU);
 	}
 }
