@@ -10,9 +10,12 @@ public class Teacher : Enemy {
 	public float maxTimeToTurn = 9;
 	
 	public Node StartNode;
+    public Node[] FollowNode;
 	
 	void Start () {
 	    Invoke("LookScholars", Random.Range(minTimeToTurn,maxTimeToTurn));
+        this.transform.SetPositionAndRotation(StartNode.transform.position,Quaternion.LookRotation(StartNode.transform.position));
+        
 	}
 	
 	void LookScholars()
@@ -50,4 +53,6 @@ public class Teacher : Enemy {
 	   Invoke("LookScholars", Random.Range(minTimeToTurn,maxTimeToTurn));
 	
 	}
+
+
 }
