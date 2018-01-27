@@ -253,7 +253,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1906462874612310, guid: df2e55668f741c04b9584407bf3080eb,
     type: 2}
   m_PrefabInternal: {fileID: 1723901449}
---- !u!61 &618475362
+--- !u!61 &618475364
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -423,6 +423,11 @@ Prefab:
     - target: {fileID: 4154110577918382, guid: 7129229572df3754892322a6bb883f83, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114127943739661638, guid: 7129229572df3754892322a6bb883f83,
+        type: 2}
+      propertyPath: HasTheBall
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7129229572df3754892322a6bb883f83, type: 2}
@@ -982,7 +987,7 @@ Prefab:
     - target: {fileID: 114127943739661638, guid: 7129229572df3754892322a6bb883f83,
         type: 2}
       propertyPath: HasTheBall
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7129229572df3754892322a6bb883f83, type: 2}

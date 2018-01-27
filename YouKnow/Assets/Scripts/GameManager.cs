@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour {
 	
 	void Start () 
 	{
-	    DontDestroyOnLoad(this);
 		MODEL.GAME_MANAGER = this;
 	    StartGame();
 	}
