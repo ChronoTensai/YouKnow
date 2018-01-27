@@ -11,13 +11,18 @@ public enum GameStates
 
 public class GameManager : MonoBehaviour {
 
+    public AudioClip GameOverSound;
+    public AudioClip Music;
+
     // Use this for initialization
 	private const int goalVisited = 3;
 	private int progressVisited;
+    private float timeToEnd = 15;
 	
 	void Start () 
 	{
 		MODEL.GAME_MANAGER = this;
+
 	    StartGame();
 	}
 	
@@ -25,11 +30,17 @@ public class GameManager : MonoBehaviour {
 	{
         progressVisited = 0;
 		MODEL.GAME_STATE = GameStates.Playing;
+        MODEL.SOUND_MANAGER.PlayAudio(GameOverSound);
+
+        Invoke("YouLose", timeToEnd);
 	}
 	
 	public void YouLose()
 	{
-	    MODEL.GAME_STATE = GameStates.Lose;
+        CancelInvoke("YouLose");
+        MODEL.SOUND_MANAGER.StopAllAudio();
+        MODEL.SOUND_MANAGER.PlayAudio(GameOverSound);
+        MODEL.GAME_STATE = GameStates.Lose;
 	    Debug.Log("Lose");
 	}
 	
