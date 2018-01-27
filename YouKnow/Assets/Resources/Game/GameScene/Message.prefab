@@ -89,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c8ff0657fa2c343afff47ebb896beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PopMessage: {fileID: 8300000, guid: e84d8d2658b3a29448bab7e31286e4b3, type: 3}
   Velocity: 3
 --- !u!212 &212466048531803078
 SpriteRenderer:
