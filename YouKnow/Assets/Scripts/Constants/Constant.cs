@@ -22,5 +22,6 @@ public static class SCENE
 public static class MODEL
 {
     public static GameManager GAME_MANAGER;
-    public static GameStates GAME_STATE;    
+    public static GameStates GAME_STATE;
+    public static SoundManager SOUND_MANAGER;  
 }
