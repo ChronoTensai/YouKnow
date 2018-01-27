@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Message : MonoBehaviour {
 
-	// Use this for initialization
+    // Use this for initialization
+    public AudioClip PopMessage;
 	public float Velocity = 3;
 	private Vector2 _velocity;
 	
@@ -15,6 +16,7 @@ public class Message : MonoBehaviour {
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         
         _velocity = Vector3.right * Velocity;
+        MODEL.SOUND_MANAGER.PlayAudio(PopMessage);
 	}
 	
 	// Update is called once per frame
@@ -36,11 +38,9 @@ public class Message : MonoBehaviour {
 	        //_velocity = Vector2.(_velocity, coll.contacts[0].normal);
 	       // float angle = Vector2.Angle(coll.contacts[0].normal, this.transform.right);
 	        this.transform.right = Vector2.Reflect(this.transform.position, coll.contacts[0].normal);
-           
-	        
-	        
 	        //Debug.Log("angle: " +angle);
             //Debug.Break();
+
 	    }
 	}
 }
