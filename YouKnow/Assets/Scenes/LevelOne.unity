@@ -890,7 +890,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'You have been expelled from school.  You spiral into depression and alcoholism.  Drowned
     in gambling debts, the burden of oppressive existentialism  and the indifference
-    of society, you wish you go back in time and do things differently.   '
+    of society, you wish you could go back in time and perhaps do things differently.   '
 --- !u!222 &1282122770
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -907,7 +907,7 @@ GameObject:
   - component: {fileID: 1320187523}
   - component: {fileID: 1320187522}
   m_Layer: 0
-  m_Name: losePrompt
+  m_Name: EventManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
