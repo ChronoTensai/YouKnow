@@ -10,16 +10,16 @@ public class SoundManager : MonoBehaviour {
 
     void Awake()
     {
-        DontDestroyOnLoad(this);
         MODEL.SOUND_MANAGER = this;
     }
 
     public void PlayAudio(AudioClip clip)
     {
+        lastIdPlayed = lastIdPlayed < AudioSource.Length ? lastIdPlayed : 0;
+         
+        AudioSource[0].clip = clip;
+        AudioSource[0].Play();
         lastIdPlayed++;
-        lastIdPlayed = lastIdPlayed < AudioSource.Length ? lastIdPlayed : 0;       
-        AudioSource[lastIdPlayed].clip = clip;
-        AudioSource[lastIdPlayed].Play();        
     }
 
     public void StopAllAudio()
@@ -28,6 +28,5 @@ public class SoundManager : MonoBehaviour {
         {
             AudioSource[i].Stop();
         }
-
     }
 }

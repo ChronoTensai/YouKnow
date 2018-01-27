@@ -17,20 +17,23 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
 	private const int goalVisited = 3;
 	private int progressVisited;
-    private float timeToEnd = 15;
+    private float timeToEnd = 60;
 	
-	void Start () 
+	void Awake() 
 	{
-		MODEL.GAME_MANAGER = this;
-
-	    StartGame();
+		MODEL.GAME_MANAGER = this;	    
+	}
+	
+	void Start()
+	{
+	   StartGame();
 	}
 	
 	private void StartGame()
 	{
         progressVisited = 0;
 		MODEL.GAME_STATE = GameStates.Playing;
-        MODEL.SOUND_MANAGER.PlayAudio(GameOverSound);
+        MODEL.SOUND_MANAGER.PlayAudio(Music);
 
         Invoke("YouLose", timeToEnd);
 	}
