@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Canvas
   - Game
+  - Message
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - Neutral
   - Enemy
   - Wall
-  - 
-  - 
+  - Message
+  - BlackboardWall
   - 
   - 
   - 
