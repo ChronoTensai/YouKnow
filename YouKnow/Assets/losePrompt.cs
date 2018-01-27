@@ -15,8 +15,6 @@ public class losePrompt : MonoBehaviour {
 	}
 
 
-
-
 	public void Update()
 	{
 
