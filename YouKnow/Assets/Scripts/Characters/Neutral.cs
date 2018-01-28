@@ -7,10 +7,10 @@ public class Neutral : Character {
     public bool HasTheBall;
     public GameObject Message;
     protected bool visited;
-    
-	
-	// Update is called once per frame
-	void Update () 
+
+
+    // Update is called once per frame
+    void Update () 
 	{
 	     
 	    if(HasTheBall)
@@ -20,8 +20,11 @@ public class Neutral : Character {
     	    {
 	            Shoot();
     	    }
-	    }
-	}
+            
+           
+        }
+
+    }
 	
 	void Shoot()
 	{
@@ -37,5 +40,6 @@ public class Neutral : Character {
             HasTheBall = true;
             base.GetTheMessage(message);
         }
-    }  
+    }
+
 }
