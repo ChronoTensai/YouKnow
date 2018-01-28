@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 10256118}
   m_Layer: 0
   m_Name: Teacher
-  m_TagString: Untagged
+  m_TagString: Teacher
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -187,7 +187,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: 2154111be3b56c84d946665abeb4039a, type: 3}
   StartNode: {fileID: 473770026}
   FirtsNodeToGo: {fileID: 545487670}
-  speed: 1
+  speed: 1.25
 --- !u!212 &10256120
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -624,7 +624,7 @@ Prefab:
     - target: {fileID: 224935723354014916, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224962053607944262, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -644,7 +644,7 @@ Prefab:
     - target: {fileID: 224962053607944262, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224493268079205070, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -664,7 +664,7 @@ Prefab:
     - target: {fileID: 224493268079205070, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 33ad4c75aabb31e4bba0cdbb6544c49a, type: 2}
@@ -2162,6 +2162,22 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1364132630 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1925576695526444, guid: df2e55668f741c04b9584407bf3080eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 2037330371}
+--- !u!114 &1364132634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364132630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8497cd07668f96478f3cf2281dff62e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1364701324
 GameObject:
   m_ObjectHideFlags: 0
@@ -2942,6 +2958,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4156335163823232, guid: df2e55668f741c04b9584407bf3080eb, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212334239790393074, guid: df2e55668f741c04b9584407bf3080eb,
+        type: 2}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212433236430434868, guid: df2e55668f741c04b9584407bf3080eb,
+        type: 2}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212433236430434868, guid: df2e55668f741c04b9584407bf3080eb,
+        type: 2}
+      propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

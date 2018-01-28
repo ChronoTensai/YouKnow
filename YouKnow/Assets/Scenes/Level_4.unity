@@ -1475,7 +1475,7 @@ Prefab:
     - target: {fileID: 224935723354014916, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 92.833336
+      value: 93.833336
       objectReference: {fileID: 0}
     - target: {fileID: 224935723354014916, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1495,7 +1495,7 @@ Prefab:
     - target: {fileID: 224962053607944262, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 278.5
+      value: 297
       objectReference: {fileID: 0}
     - target: {fileID: 224962053607944262, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1515,7 +1515,7 @@ Prefab:
     - target: {fileID: 224493268079205070, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 464.1667
+      value: 503.1667
       objectReference: {fileID: 0}
     - target: {fileID: 224493268079205070, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1734,7 +1734,7 @@ GameObject:
   - component: {fileID: 1080046302}
   m_Layer: 0
   m_Name: Teacher
-  m_TagString: Untagged
+  m_TagString: Teacher
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1794,7 +1794,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: 2154111be3b56c84d946665abeb4039a, type: 3}
   StartNode: {fileID: 492237074}
   FirtsNodeToGo: {fileID: 492237075}
-  speed: 2
+  speed: 1.75
 --- !u!212 &1080046304
 SpriteRenderer:
   m_ObjectHideFlags: 0

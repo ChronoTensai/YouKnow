@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 407803662}
   m_Layer: 0
   m_Name: Teacher
-  m_TagString: Untagged
+  m_TagString: Teacher
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -641,7 +641,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: 2154111be3b56c84d946665abeb4039a, type: 3}
   StartNode: {fileID: 1014310106}
   FirtsNodeToGo: {fileID: 1622981131}
-  speed: 1.25
+  speed: 1.4
 --- !u!212 &407803664
 SpriteRenderer:
   m_ObjectHideFlags: 0
