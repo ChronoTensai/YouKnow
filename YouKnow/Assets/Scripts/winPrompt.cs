@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WinPrompt : MonoBehaviour {
+public class WinPrompt : MonoBehaviour
+{
 
 
     private GameObject obj;
@@ -18,7 +19,8 @@ public class WinPrompt : MonoBehaviour {
     public void Update()
     {
 
-        if (MODEL.GAME_STATE == GameStates.Win) {
+        if (MODEL.GAME_STATE == GameStates.Win)
+        {
             obj.SetActive(true);
         }
     }
