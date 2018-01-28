@@ -16,7 +16,10 @@ public static class LAYER
 public static class SCENE 
 {
 	public const string MAIN_MENU = "MainMenu";
-	public const string LEVEL_ONE = "LevelOne";	
+	public const string LEVEL_ONE = "Level_1";
+    public const string LEVEL_TWO = "Level_2";
+    public const string LEVEL_THREE = "Level_3";
+    public const string LEVEL_FOUR = "Level_4";
 }
 
 public static class MODEL
