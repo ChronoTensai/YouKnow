@@ -101,6 +101,6 @@ public class GameManager : MonoBehaviour {
 	public void UpdateTimeLeft()
 	{
 	   timeLeft--;
-	   txtTimeLeft.text = "TimeLeft: " + timeLeft;
+	   txtTimeLeft.text = "Time Left: " + timeLeft;
 	}
 }
