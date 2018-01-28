@@ -188,7 +188,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2141537493}
         m_MethodName: LoadLevel
         m_Mode: 1
         m_Arguments:
@@ -3095,7 +3095,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2141537492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fc7512a224b3b4fa997ffa009d3745, type: 3}
+  m_Script: {fileID: 11500000, guid: a7a942c84528a96479b32183d3551a3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2141537494
