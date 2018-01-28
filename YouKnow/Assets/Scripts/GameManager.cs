@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
 
     public AudioClip GameOverSound;
     public AudioClip Music;
+    public GameObject BallIndicator;
 
     // Use this for initialization
 	private const int goalVisited = 3;

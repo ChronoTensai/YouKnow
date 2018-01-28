@@ -29,17 +29,32 @@ public class Neutral : Character {
 	void Shoot()
 	{
 	    HasTheBall = false;
+        HideIndicator();
         Instantiate(Message, this.transform.position, Quaternion.identity);
+
 	}
 	
     public override void GetTheMessage(GameObject message)
     {
         if(!visited)
         {
+            ShowIndicator();
             visited = true;
             HasTheBall = true;
             base.GetTheMessage(message);
         }
+    }
+
+    protected void ShowIndicator()
+    {
+        MODEL.GAME_MANAGER.BallIndicator.transform.position = this.transform.position;
+        MODEL.GAME_MANAGER.BallIndicator.SetActive(true);
+
+    }
+
+    protected void HideIndicator()
+    {
+        MODEL.GAME_MANAGER.BallIndicator.SetActive(false);
     }
 
 }

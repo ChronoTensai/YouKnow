@@ -12,6 +12,7 @@ TagManager:
   - LevelUI
   - ChildrenLeft
   - TimeLeft
+  - HasTheBall
   layers:
   - Default
   - TransparentFX

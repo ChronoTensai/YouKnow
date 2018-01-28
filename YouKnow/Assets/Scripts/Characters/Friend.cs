@@ -6,8 +6,11 @@ public class Friend : Neutral {
 
     void Start()
     {
-        if(HasTheBall)
+        if (HasTheBall)
+        { 
             visited = true;
+            ShowIndicator();
+        }
     }
     
     public override void GetTheMessage(GameObject message)
@@ -17,8 +20,9 @@ public class Friend : Neutral {
             Destroy(message);
             MODEL.GAME_MANAGER.StepToWin();
             visited = true;
-  
-            if(MODEL.GAME_STATE != GameStates.Win)
+            ShowIndicator();
+
+            if (MODEL.GAME_STATE != GameStates.Win)
             {
                 HasTheBall = true;
                 

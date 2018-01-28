@@ -11,4 +11,10 @@ public class Node : MonoBehaviour {
 	
 	public bool LastVisited;
 	public bool IsBlackBoard;
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(transform.position, 0.25f);
+    }
 }

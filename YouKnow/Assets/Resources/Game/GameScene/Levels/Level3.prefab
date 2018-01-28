@@ -80,6 +80,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1185251919016018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4706880250390788}
+  - component: {fileID: 114859345914051152}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Game
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1263742531031480
 GameObject:
   m_ObjectHideFlags: 1
@@ -618,6 +634,7 @@ Transform:
   - {fileID: 4775948879067376}
   - {fileID: 4441809674729866}
   - {fileID: 4681636275147494}
+  - {fileID: 4706880250390788}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -866,6 +883,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4665622764002482}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4706880250390788
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185251919016018}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 32.9, y: -31.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4251971325355428}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4750226643740818
 Transform:
@@ -1761,6 +1791,23 @@ MonoBehaviour:
   Bot: {fileID: 0}
   LastVisited: 0
   IsBlackBoard: 0
+--- !u!114 &114859345914051152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185251919016018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af326bcd01fbd4349b7c34b32dda9a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOverSound: {fileID: 8300000, guid: 9870313edd159b34ab74c867bbaf77c0, type: 3}
+  Music: {fileID: 8300000, guid: 45cf8b3c09a49124ea2ce48e58bd1470, type: 3}
+  currentLevel: 3
+  txtCurrentLevel: {fileID: 0}
+  txtTargetLeft: {fileID: 0}
+  txtTimeLeft: {fileID: 0}
 --- !u!114 &114875946963332012
 MonoBehaviour:
   m_ObjectHideFlags: 1
