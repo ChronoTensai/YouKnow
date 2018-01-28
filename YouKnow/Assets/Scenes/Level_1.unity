@@ -542,11 +542,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< HEAD
       - m_Target: {fileID: 1320187524}
-=======
-      - m_Target: {fileID: 1320187522}
->>>>>>> cf05a8a5144d8526f3471370ed23e7ea2c648da4
         m_MethodName: LoadLevel
         m_Mode: 1
         m_Arguments:
