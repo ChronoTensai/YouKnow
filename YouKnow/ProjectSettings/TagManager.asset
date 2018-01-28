@@ -8,6 +8,7 @@ TagManager:
   - Game
   - Message
   - losePrompt
+  - winPrompt
   layers:
   - Default
   - TransparentFX
