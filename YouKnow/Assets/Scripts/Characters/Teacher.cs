@@ -37,6 +37,7 @@ public class Teacher : Enemy {
 	    {
 	        if(SearchForPaper())
 	        {
+                Destroy(GameObject.FindGameObjectWithTag("Message"));
                 MODEL.SOUND_MANAGER.PlayAudio(this.CatchAudio);
 	            MODEL.GAME_MANAGER.YouLose();
 	        }
@@ -60,7 +61,8 @@ public class Teacher : Enemy {
             //Nos fijamos si el papel esta en frende de la profesora
             Vector2 teacherFront = transform.TransformDirection(Vector2.up);
             Vector2 direction = go.transform.position - transform.position;
-            findMessage = Vector2.Dot(teacherFront, direction) > 0;            
+            findMessage = Vector2.Dot(teacherFront, direction) > 0;
+            
        }
 	   
 	   return findMessage;

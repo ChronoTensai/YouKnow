@@ -187,6 +187,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &64555469
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -444,6 +445,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &328025419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -652,6 +654,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &350437042
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1000,6 +1003,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &521149965
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1362,6 +1366,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
 --- !u!212 &773208752
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1599,6 +1604,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
 --- !u!212 &956681817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2263,6 +2269,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1445119390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2382,6 +2389,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 1
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
 --- !u!212 &1464395096
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2501,6 +2509,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1530501058
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2626,6 +2635,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1606415317
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2751,6 +2761,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1670741311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2876,6 +2887,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1866664013
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2995,6 +3007,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1883026434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3160,6 +3173,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1982042616
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3279,6 +3293,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
 --- !u!212 &2035010295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3398,6 +3413,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &2126127838
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ public class Neutral : Character {
     public GameObject Message;
     protected bool visited;
 
+    public GameObject OtherHair;
+
 
     // Update is called once per frame
     void Update () 
@@ -30,6 +32,8 @@ public class Neutral : Character {
 	{
 	    HasTheBall = false;
         HideIndicator();
+        Instantiate(OtherHair, this.transform.position, Quaternion.identity);
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         Instantiate(Message, this.transform.position, Quaternion.identity);
 
 	}
@@ -40,6 +44,7 @@ public class Neutral : Character {
         {
             ShowIndicator();
             visited = true;
+            
             HasTheBall = true;
             base.GetTheMessage(message);
         }
