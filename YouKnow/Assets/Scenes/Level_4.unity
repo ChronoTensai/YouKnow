@@ -1488,7 +1488,7 @@ Prefab:
     - target: {fileID: 224935723354014916, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224962053607944262, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1508,7 +1508,7 @@ Prefab:
     - target: {fileID: 224962053607944262, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224493268079205070, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1528,7 +1528,7 @@ Prefab:
     - target: {fileID: 224493268079205070, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114747960764913380, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1725,6 +1725,7 @@ MonoBehaviour:
   Music: {fileID: 8300000, guid: 45cf8b3c09a49124ea2ce48e58bd1470, type: 3}
   BallIndicator: {fileID: 1431220121}
   currentLevel: 4
+  WinSound: {fileID: 8300000, guid: a0f647ce9af456b46ac48cba4ebf6bc4, type: 3}
   txtCurrentLevel: {fileID: 968740093}
   txtTargetLeft: {fileID: 968740092}
   txtTimeLeft: {fileID: 968740091}

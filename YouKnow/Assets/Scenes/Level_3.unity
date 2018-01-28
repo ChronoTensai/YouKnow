@@ -452,6 +452,7 @@ MonoBehaviour:
   Music: {fileID: 8300000, guid: 45cf8b3c09a49124ea2ce48e58bd1470, type: 3}
   BallIndicator: {fileID: 236486591}
   currentLevel: 3
+  WinSound: {fileID: 8300000, guid: a0f647ce9af456b46ac48cba4ebf6bc4, type: 3}
   txtCurrentLevel: {fileID: 1891753436}
   txtTargetLeft: {fileID: 1891753435}
   txtTimeLeft: {fileID: 1891753434}

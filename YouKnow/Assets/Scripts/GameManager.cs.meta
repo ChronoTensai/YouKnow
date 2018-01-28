@@ -1,13 +1,18 @@
 fileFormatVersion: 2
 guid: af326bcd01fbd4349b7c34b32dda9a79
-timeCreated: 1517070061
+timeCreated: 1517150741
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - GameOverSound: {fileID: 8300000, guid: 9870313edd159b34ab74c867bbaf77c0, type: 3}
+  - GameOverSound: {instanceID: 0}
   - Music: {fileID: 8300000, guid: 45cf8b3c09a49124ea2ce48e58bd1470, type: 3}
+  - BallIndicator: {instanceID: 0}
+  - WinSound: {fileID: 8300000, guid: a0f647ce9af456b46ac48cba4ebf6bc4, type: 3}
+  - txtCurrentLevel: {instanceID: 0}
+  - txtTargetLeft: {instanceID: 0}
+  - txtTimeLeft: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

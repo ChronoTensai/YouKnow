@@ -8,7 +8,8 @@ public class winPrompt : MonoBehaviour
 
 
     public GameObject obj;
-   
+    
+
     public void Update()
     {
 

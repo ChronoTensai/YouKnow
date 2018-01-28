@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour {
 	{
         progressVisited = 0;
 		MODEL.GAME_STATE = GameStates.Playing;
-        MODEL.SOUND_MANAGER.PlayAudio(Music);
+        MODEL.SOUND_MANAGER.PlayMusic(Music);
 
         Invoke("YouLose", timeToEnd);
 
@@ -59,16 +59,22 @@ public class GameManager : MonoBehaviour {
 	{
         CancelInvoke("YouLose");
 	    CancelInvoke("UpdateTimeLeft");
-	    
+
+        MODEL.SOUND_MANAGER.StopMusic();
         MODEL.SOUND_MANAGER.PlayAudio(GameOverSound);
         MODEL.GAME_STATE = GameStates.Lose;
 	    Debug.Log("Lose");
 	}
-	
-	public void StepToWin()
+
+    public AudioClip WinSound;
+
+    public void StepToWin()
 	{
 	    Debug.Log("StepToWin");
-	    progressVisited++;
+
+       
+
+        progressVisited++;
 	    UpdateTargetLeft();
 	    if(progressVisited == goalVisited)
 	    {
@@ -80,7 +86,10 @@ public class GameManager : MonoBehaviour {
 	{
 	    CancelInvoke("YouLose");
 	    CancelInvoke("UpdateTimeLeft");
-	    MODEL.GAME_STATE = GameStates.Win;
+        MODEL.SOUND_MANAGER.StopMusic();
+        MODEL.SOUND_MANAGER.PlayAudio(WinSound);
+
+        MODEL.GAME_STATE = GameStates.Win;
 	    Debug.Log("Win");
 	    
 	}
