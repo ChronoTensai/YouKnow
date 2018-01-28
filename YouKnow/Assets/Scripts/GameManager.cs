@@ -95,7 +95,7 @@ public class GameManager : MonoBehaviour {
 	
 	public void UpdateTargetLeft()
 	{
-	    txtTargetLeft.text = "Grils Left: "  + (goalVisited - progressVisited).ToString();
+	    txtTargetLeft.text = "Girls Left: "  + (goalVisited - progressVisited).ToString();
 	}
 	
 	public void UpdateTimeLeft()
