@@ -25,22 +25,13 @@ public class Message : MonoBehaviour {
 	    
 	    
 	}
-	
+
+    
 	void OnCollisionEnter2D(Collision2D coll)
 	{
-	    if(coll.gameObject.layer == LAYER.BLACKBOARD_WALL)
+	    if(coll.gameObject.layer == LAYER.BLACKBOARD_WALL || coll.gameObject.layer == LAYER.WALL)
 	    {
-	        MODEL.GAME_MANAGER.YouLose();
-	    }
-	    else if(coll.gameObject.layer == LAYER.WALL)
-	    {
-	        Debug.Log(_velocity);
-            //_velocity = Vector2.(_velocity, coll.contacts[0].normal);
-            // float angle = Vector2.Angle(coll.contacts[0].normal, this.transform.right);
-            this.transform.right = Vector2.Reflect(this.transform.position, coll.contacts[0].normal);
-	        //Debug.Log("angle: " +angle);
-            //Debug.Break();
-
+            this.transform.right = Vector2.Reflect(this.transform.position, coll.contacts[0].normal);	       
 	    }
 	}
 }

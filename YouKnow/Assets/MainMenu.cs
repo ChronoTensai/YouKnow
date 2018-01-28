@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour 
 {
 
+    void Start()
+    {
+        Screen.SetResolution(800, 600, false);
+    }
     public void LoadLevel()
     {
         SceneManager.LoadScene(SCENE.LEVEL_ONE);

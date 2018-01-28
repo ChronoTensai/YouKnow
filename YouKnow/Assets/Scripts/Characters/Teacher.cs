@@ -5,7 +5,7 @@ using UnityEngine;
 public class Teacher : Enemy {
 
 	public Node StartNode;
-    public Node[] FollowNode;
+    public Node FirtsNodeToGo;
     private Node ToFollow;
     private Node LastNodeVisited;
 
@@ -20,13 +20,10 @@ public class Teacher : Enemy {
             //No se como hacer que mire en el sentido que se va a dirigir
             //como que no? si lo tenias  bien en move xD
             this.transform.SetPositionAndRotation(StartNode.transform.position, Quaternion.LookRotation(StartNode.transform.position - this.transform.position, transform.TransformDirection(Vector3.forward)));
+            
         }
-        else
-        {
-            this.transform.SetPositionAndRotation(FollowNode[0].transform.position, Quaternion.LookRotation(FollowNode[0].transform.position - this.transform.position, transform.TransformDirection(Vector3.forward)));
-        }
-        ToFollow = FollowNode[0];
-
+        
+         ToFollow = FirtsNodeToGo;
     }
 	
 	
@@ -39,6 +36,7 @@ public class Teacher : Enemy {
 	        {
                 Destroy(GameObject.FindGameObjectWithTag("Message"));
                 MODEL.SOUND_MANAGER.PlayAudio(this.CatchAudio);
+
 	            MODEL.GAME_MANAGER.YouLose();
 	        }
 	        else

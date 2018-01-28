@@ -78,9 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47930eaf5eef16846aa5c29ad9885bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
-  minTimeToTurn: 4
-  maxTimeToTurn: 9
+  CatchAudio: {fileID: 8300000, guid: 2154111be3b56c84d946665abeb4039a, type: 3}
   StartNode: {fileID: 0}
   FollowNode:
   - {fileID: 0}

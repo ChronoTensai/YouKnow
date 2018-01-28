@@ -32,6 +32,14 @@ public class GameManager : MonoBehaviour {
 	{
 	   StartGame();
 	}
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 	
 	private void StartGame()
 	{
@@ -51,7 +59,6 @@ public class GameManager : MonoBehaviour {
         CancelInvoke("YouLose");
 	    CancelInvoke("UpdateTimeLeft");
 	    
-        MODEL.SOUND_MANAGER.StopAllAudio();
         MODEL.SOUND_MANAGER.PlayAudio(GameOverSound);
         MODEL.GAME_STATE = GameStates.Lose;
 	    Debug.Log("Lose");
