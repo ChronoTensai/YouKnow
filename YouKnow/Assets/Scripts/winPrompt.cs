@@ -7,25 +7,20 @@ public class winPrompt : MonoBehaviour
 {
 
 
-    private GameObject obj;
-
-    private int count = 2;
-
-
-
-    public void Start()
-    {
-        obj = GameObject.FindGameObjectWithTag("winPrompt");
-        obj.SetActive(false);
-    }
-
+    public GameObject obj;
+    bool showing = false;
+    public int currentLevel;
 
     public void Update()
     {
 
-        if (MODEL.GAME_STATE == GameStates.Win)
+        if (!showing && MODEL.GAME_STATE == GameStates.Win)
         {
             obj.SetActive(true);
+        }
+        else if(showing && Input.GetMouseButtonDown(0))
+        {
+            LoadLevel();
         }
     }
 
@@ -35,8 +30,9 @@ public class winPrompt : MonoBehaviour
     {
         Debug.Log(MODEL.GAME_STATE);
         obj.SetActive(false);
+        currentLevel++;
 
-        switch (count)
+        switch (currentLevel)
         {
             case 2:
                 SceneManager.LoadScene(SCENE.LEVEL_TWO);
@@ -48,7 +44,7 @@ public class winPrompt : MonoBehaviour
                 SceneManager.LoadScene(SCENE.LEVEL_FOUR);
                 break;
         }
-        count++;
+
     }
 
 }

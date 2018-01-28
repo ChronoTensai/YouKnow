@@ -6,21 +6,19 @@ using UnityEngine.SceneManagement;
 public class losePrompt : MonoBehaviour {
 
 
-	private GameObject obj;
-
-	public void Start()
-	{
-		obj = GameObject.FindGameObjectWithTag("losePrompt");
-		obj.SetActive (false);
-	}
-
+	public GameObject obj;
+	bool showing = false;
 
 	public void Update()
 	{
-
-		if (MODEL.GAME_STATE == GameStates.Lose) {
-			obj.SetActive (true);
-		}
+        if (!showing && MODEL.GAME_STATE == GameStates.Lose)
+        {
+            obj.SetActive(true);
+        }
+        else if(showing && Input.GetMouseButtonDown(0))
+        {
+            LoadLevel();
+        }
 	}
 
 
@@ -29,7 +27,7 @@ public class losePrompt : MonoBehaviour {
 	{
 		Debug.Log (MODEL.GAME_STATE);
 		obj.SetActive (false);
-		SceneManager.LoadScene(SCENE.LEVEL_ONE);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
 	public void QuitToMainMenu()

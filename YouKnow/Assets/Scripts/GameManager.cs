@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum GameStates
     {
@@ -18,6 +19,8 @@ public class GameManager : MonoBehaviour {
 	private const int goalVisited = 3;
 	private int progressVisited;
     private float timeToEnd = 60;
+    private float timeLeft;
+    public int currentLevel;
 	
 	void Awake() 
 	{
@@ -36,11 +39,17 @@ public class GameManager : MonoBehaviour {
         MODEL.SOUND_MANAGER.PlayAudio(Music);
 
         Invoke("YouLose", timeToEnd);
+        
+        timeLeft = timeToEnd;
+        InvokeRepeating("UpdateTimeLeft", 0, 1);
+        UpdateTargetLeft();
 	}
 	
 	public void YouLose()
 	{
         CancelInvoke("YouLose");
+	    CancelInvoke("UpdateTimeLeft");
+	    
         MODEL.SOUND_MANAGER.StopAllAudio();
         MODEL.SOUND_MANAGER.PlayAudio(GameOverSound);
         MODEL.GAME_STATE = GameStates.Lose;
@@ -51,6 +60,7 @@ public class GameManager : MonoBehaviour {
 	{
 	    Debug.Log("StepToWin");
 	    progressVisited++;
+	    UpdateTargetLeft();
 	    if(progressVisited == goalVisited)
 	    {
 	        Win();	       
@@ -59,8 +69,30 @@ public class GameManager : MonoBehaviour {
 	
 	public void Win()
 	{
+	    CancelInvoke("YouLose");
+	    CancelInvoke("UpdateTimeLeft");
 	    MODEL.GAME_STATE = GameStates.Win;
 	    Debug.Log("Win");
 	    
+	}
+	
+	public Text txtCurrentLevel;
+	public Text txtTargetLeft;
+	public Text txtTimeLeft;
+	
+	public void SetCurrentLevel()
+	{
+	    txtCurrentLevel.text = "Current Level: " + currentLevel;
+	}
+	
+	public void UpdateTargetLeft()
+	{
+	    txtTargetLeft.text = "Children Left: "  + (goalVisited - progressVisited).ToString();
+	}
+	
+	public void UpdateTimeLeft()
+	{
+	   timeLeft--;
+	   txtTimeLeft.text = "TimeLeft: " + timeLeft;
 	}
 }

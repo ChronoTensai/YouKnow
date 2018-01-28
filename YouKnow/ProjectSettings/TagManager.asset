@@ -9,6 +9,9 @@ TagManager:
   - Message
   - losePrompt
   - winPrompt
+  - LevelUI
+  - ChildrenLeft
+  - TimeLeft
   layers:
   - Default
   - TransparentFX
