@@ -21,9 +21,9 @@ public class Friend : Neutral {
             if(MODEL.GAME_STATE != GameStates.Win)
             {
                 HasTheBall = true;
+                
             }
         }
     }
-	
 
 }

@@ -35,9 +35,9 @@ public class Message : MonoBehaviour {
 	    else if(coll.gameObject.layer == LAYER.WALL)
 	    {
 	        Debug.Log(_velocity);
-	        //_velocity = Vector2.(_velocity, coll.contacts[0].normal);
-	       // float angle = Vector2.Angle(coll.contacts[0].normal, this.transform.right);
-	        this.transform.right = Vector2.Reflect(this.transform.position, coll.contacts[0].normal);
+            //_velocity = Vector2.(_velocity, coll.contacts[0].normal);
+            // float angle = Vector2.Angle(coll.contacts[0].normal, this.transform.right);
+            this.transform.right = Vector2.Reflect(this.transform.position, coll.contacts[0].normal);
 	        //Debug.Log("angle: " +angle);
             //Debug.Break();
 
