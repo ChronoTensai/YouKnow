@@ -32,7 +32,7 @@ public class Neutral : Character {
 	{
 	    HasTheBall = false;
         HideIndicator();
-        Instantiate(OtherHair, this.transform.position, Quaternion.identity);
+        Instantiate(OtherHair, this.transform.position, this.transform.rotation);
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         Instantiate(Message, this.transform.position, Quaternion.identity);
 

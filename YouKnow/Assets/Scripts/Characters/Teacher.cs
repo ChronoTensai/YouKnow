@@ -9,7 +9,6 @@ public class Teacher : Enemy {
     private Node ToFollow;
     private Node LastNodeVisited;
 
-    private bool desicion = false;
     public float speed;
     private float closeEnough = 0.2f;
 

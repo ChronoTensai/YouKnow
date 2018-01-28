@@ -23,7 +23,6 @@ public class Message : MonoBehaviour {
 	void Update () {
 	    this.transform.Translate(_velocity * Time.deltaTime);
 	    
-	    
 	}
 
     

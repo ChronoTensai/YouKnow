@@ -346,7 +346,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 447850921}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29, y: -30, z: 0}
+  m_LocalPosition: {x: 27.55, y: -29.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1273329320}
@@ -477,6 +477,14 @@ Prefab:
     - target: {fileID: 4156335163823232, guid: df2e55668f741c04b9584407bf3080eb, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4521626116206364, guid: df2e55668f741c04b9584407bf3080eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -6.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4521626116206364, guid: df2e55668f741c04b9584407bf3080eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df2e55668f741c04b9584407bf3080eb, type: 2}
@@ -614,7 +622,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
-  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &547992723
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -686,13 +694,13 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 605729061}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29, y: -28, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.071671575, w: 0.9974283}
+  m_LocalPosition: {x: 29.1, y: -28.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1273329320}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.22}
 --- !u!114 &605729063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,13 +977,13 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 710745238}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32, y: -26, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.03969574, w: 0.99921185}
+  m_LocalPosition: {x: 31.91, y: -26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1273329320}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.55}
 --- !u!61 &710745240
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1017,7 +1025,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
-  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &710745242
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1319,7 +1327,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
-  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &877700831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1480,7 +1488,7 @@ Prefab:
     - target: {fileID: 224935723354014916, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 224962053607944262, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1500,7 +1508,7 @@ Prefab:
     - target: {fileID: 224962053607944262, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 224493268079205070, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1520,7 +1528,7 @@ Prefab:
     - target: {fileID: 224493268079205070, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114747960764913380, guid: 33ad4c75aabb31e4bba0cdbb6544c49a,
         type: 2}
@@ -1713,7 +1721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af326bcd01fbd4349b7c34b32dda9a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameOverSound: {fileID: 8300000, guid: 9870313edd159b34ab74c867bbaf77c0, type: 3}
+  GameOverSound: {fileID: 8300000, guid: d83648ecf7e74c447beef99f58914bc3, type: 3}
   Music: {fileID: 8300000, guid: 45cf8b3c09a49124ea2ce48e58bd1470, type: 3}
   BallIndicator: {fileID: 1431220121}
   currentLevel: 4
@@ -1913,7 +1921,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1364760480}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29, y: -32, z: 0}
+  m_LocalPosition: {x: 28.84, y: -31.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1273329320}
@@ -2129,7 +2137,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
-  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1469226711
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2201,13 +2209,13 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1479376530}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35, y: -30, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.07114935, w: 0.9974657}
+  m_LocalPosition: {x: 35.11, y: -29.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1273329320}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.16}
 --- !u!61 &1479376532
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2249,7 +2257,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
-  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1479376534
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2509,6 +2517,53 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1616889131
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1844308024}
+    m_Modifications:
+    - target: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 39.761246
+      objectReference: {fileID: 0}
+    - target: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -31.674257
+      objectReference: {fileID: 0}
+    - target: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3c587567495176644a0225235778d6a3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1616889132 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4719105083819962, guid: 3c587567495176644a0225235778d6a3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1616889131}
 --- !u!1 &1657978351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,13 +2590,13 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657978351}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.16952151, w: 0.98552656}
   m_LocalPosition: {x: 38, y: -28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1273329320}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 19.52}
 --- !u!61 &1657978353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2583,7 +2638,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
-  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1657978355
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2703,7 +2758,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
-  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1778023180
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2823,7 +2878,7 @@ MonoBehaviour:
   CatchAudio: {fileID: 8300000, guid: aa083b3c5707ff044a59998bfac6f3b1, type: 3}
   HasTheBall: 0
   Message: {fileID: 1247064766572274, guid: ba6cb04112d829f43b28f45b8bb922e3, type: 2}
-  OtherHair: {fileID: 1835426511248396, guid: 05f3fba40a7ba34499b0d0b00e522205, type: 2}
+  OtherHair: {fileID: 1528810846982778, guid: 6bc1de75f78e81a42ad7a521762e9e7a, type: 2}
 --- !u!212 &1802118649
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2902,6 +2957,7 @@ Transform:
   - {fileID: 981132046}
   - {fileID: 492237069}
   - {fileID: 1431220120}
+  - {fileID: 1616889132}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

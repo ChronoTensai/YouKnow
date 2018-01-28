@@ -8,7 +8,7 @@ public class AnimationFloor : MonoBehaviour {
     SpriteRenderer _sprite;
 	void Start () {
         _sprite = this.gameObject.GetComponent<SpriteRenderer>();
-        InvokeRepeating("AnimateThis", 0.5f, 0.5f);
+        InvokeRepeating("AnimateThis", 2, 2);
 	}
 	
 	// Update is called once per frame

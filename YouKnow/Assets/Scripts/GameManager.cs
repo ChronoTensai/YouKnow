@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
 	private const int goalVisited = 3;
 	private int progressVisited;
-    private float timeToEnd = 30;
+    private float timeToEnd = 45;
     private float timeLeft;
     public int currentLevel;
 	
@@ -48,7 +48,8 @@ public class GameManager : MonoBehaviour {
         MODEL.SOUND_MANAGER.PlayAudio(Music);
 
         Invoke("YouLose", timeToEnd);
-        
+
+        SetCurrentLevel();
         timeLeft = timeToEnd;
         InvokeRepeating("UpdateTimeLeft", 0, 1);
         UpdateTargetLeft();
@@ -90,7 +91,7 @@ public class GameManager : MonoBehaviour {
 	
 	public void SetCurrentLevel()
 	{
-	    txtCurrentLevel.text = "Current Level: " + currentLevel;
+	    txtCurrentLevel.text = "Level " + currentLevel;
 	}
 	
 	public void UpdateTargetLeft()
