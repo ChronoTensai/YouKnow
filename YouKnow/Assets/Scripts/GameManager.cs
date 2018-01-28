@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
 	private const int goalVisited = 3;
 	private int progressVisited;
-    private float timeToEnd = 60;
+    private float timeToEnd = 30;
     private float timeLeft;
     public int currentLevel;
 	

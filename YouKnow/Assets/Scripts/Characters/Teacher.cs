@@ -10,7 +10,7 @@ public class Teacher : Enemy {
     private Node LastNodeVisited;
 
     private bool desicion = false;
-    public float speed = 20f;
+    public float speed;
     private float closeEnough = 0.2f;
 
 
