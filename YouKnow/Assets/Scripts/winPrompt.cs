@@ -8,7 +8,7 @@ public class WinPrompt : MonoBehaviour
 
 
     private GameObject obj;
-
+    private int count = 2;
     public void Start()
     {
         obj = GameObject.FindGameObjectWithTag("winPrompt");
@@ -31,7 +31,19 @@ public class WinPrompt : MonoBehaviour
     {
         Debug.Log(MODEL.GAME_STATE);
         obj.SetActive(false);
-        SceneManager.LoadScene(SCENE.LEVEL_TWO);
+        switch (count)
+        {
+            case 2:
+                SceneManager.LoadScene(SCENE.LEVEL_TWO);
+                break;
+            case 3:
+                SceneManager.LoadScene(SCENE.LEVEL_THREE);
+                break;
+            case 4:
+                SceneManager.LoadScene(SCENE.LEVEL_FOUR);
+                break;
+        }
+        count++;
     }
 
 }
